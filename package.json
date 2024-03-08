@@ -1,0 +1,26 @@
+{
+  "name": "app-video-call-queue",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "prettier --ignore-path .gitignore --check . && eslint --ignore-path .gitignore .",
+    "format": "prettier --ignore-path .gitignore --write ."
+  },
+  "devDependencies": {
+    "@mdi/font": "^7.4.47",
+    "bulma": "^0.9.4",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-promise": "^6.1.1",
+    "prettier": "3.2.5",
+    "sass": "^1.71.1",
+    "vite": "^5.1.4"
+  }
+}
