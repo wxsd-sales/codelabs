@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/codelabs/video-kiosk/images/favicons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/codelabs/video-kiosk/images/favicons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/codelabs/video-kiosk/images/favicons/favicon-16x16.png" />
+    <link rel="mask-icon" href="/codelabs/video-kiosk/images/favicons/safari-pinned-tab.svg" color="#5bbad5" />
+    <link rel="shortcut icon" href="/codelabs/video-kiosk/images/favicons/favicon.ico" />
+    <meta name="theme-color" content="#ffffff" />
+    <title>Video Kiosk - Codelabs</title>
+    <script type="module" crossorigin src="/codelabs/video-kiosk/assets/index-CY2SDQC4.js"></script>
+    <link rel="stylesheet" crossorigin href="/codelabs/video-kiosk/assets/index-BRQg6AoU.css">
+  </head>
+  <body>
+    <noscript id="javascript-warning" class="hero is-danger is-bold">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            <span class="icon">
+              <i class="mdi mdi-alert"></i>
+            </span>
+            <span>Javascript is disabled.</span>
+          </h1>
+          <h2 class="subtitle">
+            This site requires Javascript for its core functionality. Please enable Javascript in
+            browser settings and reload this page.
+          </h2>
+        </div>
+      </div>
+    </noscript>
+    <main id="app">
+      <img
+        id="brand-background"
+        class="is-brand-background"
+        alt="background"
+        src="/codelabs/video-kiosk/images/webex-one-background.jpg"
+        style="filter: brightness(55%)"
+      />
+      <section class="hero is-fullheight">
+        <!-- Hero content: will be in the middle -->
+        <div class="hero-body">
+          <div class="container has-text-centered main-container">
+            <div class="columns is-multiline is-centered">
+              <div class="column is-full">
+                <figure>
+                  <img
+                    id="brand-logo"
+                    class="is-brand-logo"
+                    alt=""
+                    src="/codelabs/video-kiosk/images/webex-one-logo-white.svg"
+                  />
+                  <figcaption class="is-hidden">Logo</figcaption>
+                </figure>
+              </div>
+              <div class="column is-full">
+                <p id="subtitle" class="subtitle has-text-grey-lighter">{subtitle}</p>
+              </div>
+              <div class="column is-two-fifths">
+                <div class="card-content">
+                  <div class="content">
+                    <button
+                      id="help-button"
+                      class="button is-fullwidth is-rounded is-success is-large"
+                    >
+                      <span class="icon"><i class="mdi mdi-phone"></i></span>
+                      <span id="help-button-text">{helpButtonText}</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Hero footer: will stick at the bottom -->
+        <div class="hero-foot">
+          <div class="columns is-gapless p-2">
+            <div class="column is-12 has-text-weight-medium has-text-centered">
+              <p class="has-text-danger is-size-7">NOT FOR PRODUCTION USE</p>
+              <p class="has-text-grey-light">
+                Made with
+                <span class="icon-text has-text-danger">
+                  <i class="mdi mdi-heart"></i>
+                </span>
+                by the WXSD team (<a href="mailto:wxsd@external.cisco.com" target="_blank"
+                  >wxsd@external.cisco.com</a
+                >)
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
